@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>scam.stream — Exposing Scams. Protecting People.</title>
+  <meta name="description" content="Real-time scam exposure platform. Track rug pulls, phishing attacks, and crypto fraud. Community-driven scam database with voting.">
+
+  <!-- OG Tags -->
+  <meta property="og:title" content="scam.stream — Exposing Scams in Real Time">
+  <meta property="og:description" content="Community-driven scam exposure platform. Track rug pulls, crypto fraud, phishing attacks and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://scam.stream">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TICKER BAR -->
+  <div class="ticker-bar">
+    <div class="ticker-content" id="ticker-content"></div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="main-nav">
+    <div class="nav-inner">
+      <div class="nav-logo" data-nav="hero">scam<span>.stream</span></div>
+      <button class="mobile-menu-btn" id="mobile-menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a data-nav="hero">Home</a></li>
+        <li><a data-nav="feed">Scam Feed</a></li>
+        <li><a data-nav="stream">Stream of the Day</a></li>
+        <li><a data-nav="vault">Video Vault</a></li>
+        <li><a data-nav="database">Database</a></li>
+        <li><a data-nav="submit">Report</a></li>
+        <li><a data-nav="prevention">Prevention</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="section active" id="hero">
+    <div class="hero-logo">
+      <span class="red">scam</span><span class="dot">.</span>stream
+    </div>
+    <p class="hero-tagline">Exposing Scams. Protecting People.</p>
+    <p class="hero-description">
+      Community-driven scam exposure platform. Track rug pulls, vote on reports,
+      watch the best scam-busting content, and protect yourself from fraud.
+    </p>
+
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="number" id="stat-scams">20</span>
+        <span class="label">Scams Tracked</span>
+      </div>
+      <div class="hero-stat">
+        <span class="number">$60B+</span>
+        <span class="label">Losses Exposed</span>
+      </div>
+      <div class="hero-stat">
+        <span class="number" id="stat-reports">0</span>
+        <span class="label">Community Reports</span>
+      </div>
+    </div>
+
+    <div class="hero-cta">
+      <button class="btn btn-primary" data-nav="feed">&#9888;&#65039; Browse Scam Feed</button>
+      <button class="btn btn-outline" data-nav="submit">&#128680; Report a Scam</button>
+      <button class="btn btn-outline" data-nav="stream">&#9654; Stream of the Day</button>
+    </div>
+  </section>
+
+  <!-- ==================== SCAM FEED ==================== -->
+  <section class="section" id="feed">
+    <h1 class="section-title"><span class="accent">Scam</span> Feed</h1>
+    <p class="section-subtitle">Community-curated scam reports. Vote to surface the worst offenders.</p>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="crypto">Crypto</button>
+      <button class="filter-btn" data-filter="nft">NFT</button>
+      <button class="filter-btn" data-filter="phishing">Phishing</button>
+      <button class="filter-btn" data-filter="ponzi">Ponzi</button>
+      <select class="sort-select" id="feed-sort">
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+        <option value="top">Top Voted</option>
+        <option value="controversial">Controversial</option>
+      </select>
+    </div>
+
+    <div class="scam-feed" id="scam-feed"></div>
+  </section>
+
+  <!-- ==================== STREAM OF THE DAY ==================== -->
+  <section class="section" id="stream">
+    <h1 class="section-title"><span class="accent">Scam Stream</span> of the Day</h1>
+    <p class="section-subtitle">Daily featured scam exposure video. Come back every day for a new pick.</p>
+
+    <div class="video-featured" id="featured-video"></div>
+  </section>
+
+  <!-- ==================== VIDEO VAULT ==================== -->
+  <section class="section" id="vault">
+    <h1 class="section-title"><span class="accent">Video</span> Vault</h1>
+    <p class="section-subtitle">The best scam exposure content on the internet. Curated and categorized.</p>
+
+    <div class="search-bar">
+      <input type="text" class="search-input" id="video-search" placeholder="Search videos by title, creator, or topic...">
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="crypto">Crypto Scams</button>
+      <button class="filter-btn" data-filter="nft">NFT Rug Pulls</button>
+      <button class="filter-btn" data-filter="phone">Phone Scams</button>
+      <button class="filter-btn" data-filter="online">Online Fraud</button>
+      <button class="filter-btn" data-filter="romance">Romance Scams</button>
+    </div>
+
+    <div class="video-grid" id="video-vault-grid"></div>
+  </section>
+
+  <!-- ==================== DATABASE ==================== -->
+  <section class="section" id="database">
+    <h1 class="section-title"><span class="accent">Scam</span> Database</h1>
+    <p class="section-subtitle">Searchable registry of known scams. <span id="db-count">0</span> entries and counting.</p>
+
+    <div class="search-bar">
+      <input type="text" class="search-input" id="db-search" placeholder="Search scams by name, type, or description...">
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="crypto">Crypto</button>
+      <button class="filter-btn" data-filter="nft">NFT</button>
+      <button class="filter-btn" data-filter="phishing">Phishing</button>
+      <button class="filter-btn" data-filter="ponzi">Ponzi</button>
+    </div>
+
+    <div class="db-table-wrap">
+      <table class="db-table">
+        <thead>
+          <tr>
+            <th onclick="Database.sort('votes')">&#9650;&#9660; Votes</th>
+            <th onclick="Database.sort('name')">Name</th>
+            <th onclick="Database.sort('type')">Type</th>
+            <th onclick="Database.sort('date')">Date</th>
+            <th onclick="Database.sort('losses')">Est. Losses</th>
+            <th onclick="Database.sort('status')">Status</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody id="db-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== SUBMIT ==================== -->
+  <section class="section" id="submit">
+    <h1 class="section-title"><span class="accent">Report</span> a Scam</h1>
+    <p class="section-subtitle">One-click reporting. No account needed. Anonymous by default.</p>
+
+    <div class="submit-section">
+      <div>
+        <form class="submit-form" id="submit-form">
+          <div>
+            <label style="font-size:13px;font-weight:600;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;display:block">Quick Select Type</label>
+            <div class="quick-types">
+              <button type="button" class="quick-type-btn" data-type="crypto">&#128176; Rug Pull</button>
+              <button type="button" class="quick-type-btn" data-type="phishing">&#127907; Phishing Site</button>
+              <button type="button" class="quick-type-btn" data-type="nft">&#128444; Fake Project</button>
+              <button type="button" class="quick-type-btn" data-type="ponzi">&#127920; Ponzi Scheme</button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="scam-name">Project / Scam Name *</label>
+            <input type="text" id="scam-name" placeholder="e.g. SketchyCoin, FakeNFTProject" required>
+          </div>
+
+          <div class="form-group">
+            <label for="scam-type">Type</label>
+            <select id="scam-type">
+              <option value="">Select type...</option>
+              <option value="crypto">Crypto / Rug Pull</option>
+              <option value="nft">NFT Scam</option>
+              <option value="phishing">Phishing</option>
+              <option value="ponzi">Ponzi / Pyramid</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="scam-desc">Description</label>
+            <textarea id="scam-desc" placeholder="What happened? How does the scam work?" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="scam-evidence">Evidence URL (YouTube, X/Twitter, website)</label>
+            <input type="url" id="scam-evidence" placeholder="https://...">
+          </div>
+
+          <div class="form-group">
+            <label>Screenshots (drag & drop or paste)</label>
+            <div class="drop-zone" id="drop-zone">
+              &#128247; Drop images here, click to browse, or paste from clipboard
+              <div class="drop-zone-preview" id="screenshot-preview"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reporter-alias">Your Alias (optional)</label>
+            <input type="text" id="reporter-alias" placeholder="Anonymous">
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start">
+            &#128680; Submit Report
+          </button>
+        </form>
+      </div>
+
+      <div>
+        <div class="community-reports">
+          <h3>&#128227; Community Reports</h3>
+          <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px">
+            Reports with 5+ net upvotes get promoted to the main Scam Feed.
+          </p>
+          <div id="community-reports"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PREVENTION HUB ==================== -->
+  <section class="section" id="prevention">
+    <h1 class="section-title"><span class="accent">Prevention</span> Hub</h1>
+    <p class="section-subtitle">Protect yourself. Learn the red flags. Stay safe.</p>
+
+    <div class="prevention-grid">
+      <div class="prevention-card">
+        <div class="icon">&#128308;</div>
+        <h3>Red Flags Checklist</h3>
+        <p>If you see any of these, run:</p>
+        <ul class="checklist">
+          <li>"Guaranteed" returns or "risk-free" investment</li>
+          <li>Anonymous team or fake LinkedIn profiles</li>
+          <li>Pressure to invest NOW or miss out (FOMO)</li>
+          <li>No verifiable product, just promises</li>
+          <li>Locked tokens — you can buy but can't sell</li>
+          <li>Celebrity endorsements that seem too good to be true</li>
+          <li>Whitepaper is copied or makes no technical sense</li>
+          <li>Community is all bots / paid shills</li>
+        </ul>
+      </div>
+
+      <div class="prevention-card">
+        <div class="icon">&#128274;</div>
+        <h3>Wallet Security Basics</h3>
+        <p>Your keys, your crypto. Don't let anyone take them.</p>
+        <ul class="checklist">
+          <li>NEVER share your seed phrase — no legit service will ask for it</li>
+          <li>Use a hardware wallet (Ledger, Trezor) for significant holdings</li>
+          <li>Enable 2FA on every exchange account</li>
+          <li>Bookmark exchange URLs — never click links from emails or DMs</li>
+          <li>Revoke token approvals regularly (revoke.cash)</li>
+          <li>Use a separate browser for crypto — no extensions</li>
+        </ul>
+      </div>
+
+      <div class="prevention-card">
+        <div class="icon">&#129300;</div>
+        <h3>"Too Good To Be True" Guide</h3>
+        <p>The golden rule: if it sounds too good to be true, it is.</p>
+        <ul class="checklist">
+          <li>No investment guarantees 10%+ monthly returns</li>
+          <li>"Double your crypto" = always a scam, always</li>
+          <li>Free NFT mints that ask you to connect your wallet may drain it</li>
+          <li>DMs from "project admins" offering help = phishing</li>
+          <li>Airdrop claims requiring you to "verify" your wallet = scam</li>
+          <li>If you didn't enter a giveaway, you didn't win one</li>
+        </ul>
+      </div>
+
+      <div class="prevention-card">
+        <div class="icon">&#128270;</div>
+        <h3>How to Verify a Project</h3>
+        <p>Do your own research (DYOR) before investing anything.</p>
+        <ul class="checklist">
+          <li>Check the team — real names, real LinkedIn, real history</li>
+          <li>Read the smart contract — is it verified on Etherscan?</li>
+          <li>Check liquidity — is it locked? For how long?</li>
+          <li>Look for audits from reputable firms (CertiK, Trail of Bits)</li>
+          <li>Search "[project name] scam" before investing</li>
+          <li>Check Token Sniffer, RugDoc, or similar tools</li>
+        </ul>
+      </div>
+
+      <div class="prevention-card">
+        <div class="icon">&#128241;</div>
+        <h3>Phone & Email Scam Defense</h3>
+        <p>Scammers are getting smarter. Stay ahead of them.</p>
+        <ul class="checklist">
+          <li>Your bank will NEVER ask for your password over the phone</li>
+          <li>Don't trust caller ID — it can be spoofed</li>
+          <li>Never give remote access to your computer</li>
+          <li>Check sender email addresses carefully (paypa1.com &#8800; paypal.com)</li>
+          <li>When in doubt, hang up and call the official number directly</li>
+          <li>Report scam calls to the FTC at reportfraud.ftc.gov</li>
+        </ul>
+      </div>
+
+      <div class="prevention-card">
+        <div class="icon">&#128170;</div>
+        <h3>If You've Been Scammed</h3>
+        <p>It's not your fault. Here's what to do next.</p>
+        <ul class="checklist">
+          <li>Document everything — screenshots, transactions, addresses</li>
+          <li>Report to IC3 (FBI), FTC, and your local authorities</li>
+          <li>Contact your bank/exchange immediately to freeze accounts</li>
+          <li>Report the scam address on Chainabuse.com</li>
+          <li>Warn others — submit it here on scam.stream</li>
+          <li>Don't pay "recovery services" — most are scams too</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <div class="warning-tape"></div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3><span class="red">scam</span>.stream</h3>
+        <p>
+          Community-driven scam exposure platform. We don't give financial advice.
+          We expose fraud, educate the public, and give people the tools to protect themselves.
+          All data is community-sourced and should be independently verified.
+        </p>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a data-nav="feed">Scam Feed</a></li>
+          <li><a data-nav="stream">Stream of the Day</a></li>
+          <li><a data-nav="vault">Video Vault</a></li>
+          <li><a data-nav="database">Scam Database</a></li>
+          <li><a data-nav="submit">Report a Scam</a></li>
+          <li><a data-nav="prevention">Prevention Hub</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener">FTC Fraud Report</a></li>
+          <li><a href="https://www.ic3.gov" target="_blank" rel="noopener">FBI IC3</a></li>
+          <li><a href="https://www.chainabuse.com" target="_blank" rel="noopener">Chainabuse</a></li>
+          <li><a href="https://revoke.cash" target="_blank" rel="noopener">Revoke.cash</a></li>
+          <li><a href="https://tokensniffer.com" target="_blank" rel="noopener">Token Sniffer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 scam.stream — Exposing scams, protecting people. Not financial advice. All reports are community-sourced.
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="video-modal" id="video-modal">
+    <div class="video-modal-content">
+      <button class="video-modal-close" onclick="Videos.closeModal()">&times;</button>
+      <div class="video-modal-embed" id="modal-embed"></div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/ticker.js"></script>
+  <script src="js/feed.js"></script>
+  <script src="js/videos.js"></script>
+  <script src="js/database.js"></script>
+  <script src="js/submit.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

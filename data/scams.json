@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "BitConnect",
+    "type": "ponzi",
+    "date": "2018-01-16",
+    "losses": "$3.5 billion",
+    "status": "Dead",
+    "description": "Promised 1% daily returns through a 'trading bot'. Classic Ponzi scheme that collapsed in January 2018.",
+    "source": "https://en.wikipedia.org/wiki/Bitconnect"
+  },
+  {
+    "id": 2,
+    "name": "OneCoin",
+    "type": "ponzi",
+    "date": "2017-01-01",
+    "losses": "$4 billion",
+    "status": "Under Investigation",
+    "description": "Fake cryptocurrency with no real blockchain. Founder Ruja Ignatova disappeared and is on FBI's Most Wanted list.",
+    "source": "https://en.wikipedia.org/wiki/OneCoin"
+  },
+  {
+    "id": 3,
+    "name": "Squid Game Token",
+    "type": "crypto",
+    "date": "2021-11-01",
+    "losses": "$3.4 million",
+    "status": "Dead",
+    "description": "Exploited the Squid Game TV show hype. Token had a sell restriction — holders couldn't sell. Devs dumped everything.",
+    "source": "https://www.bbc.com/news/business-59129466"
+  },
+  {
+    "id": 4,
+    "name": "Frosties NFT",
+    "type": "nft",
+    "date": "2022-01-09",
+    "losses": "$1.3 million",
+    "status": "Dead",
+    "description": "NFT project that rug-pulled hours after selling out. Founders arrested and charged with wire fraud.",
+    "source": "https://www.justice.gov/usao-sdny/pr/two-defendants-charged-non-fungible-token-nft-fraud-scheme"
+  },
+  {
+    "id": 5,
+    "name": "SafeMoon",
+    "type": "crypto",
+    "date": "2023-11-01",
+    "losses": "$200 million",
+    "status": "Under Investigation",
+    "description": "Marketed as a safe DeFi token. SEC charged founders with fraud, citing misuse of investor funds for personal luxury purchases.",
+    "source": "https://www.sec.gov/litigation/complaints/2023/comp-pr2023-222.pdf"
+  },
+  {
+    "id": 6,
+    "name": "Terra/LUNA",
+    "type": "crypto",
+    "date": "2022-05-09",
+    "losses": "$40 billion",
+    "status": "Under Investigation",
+    "description": "Algorithmic stablecoin UST lost its peg, triggering a death spiral that wiped out LUNA and UST holders.",
+    "source": "https://en.wikipedia.org/wiki/Terra_(blockchain)"
+  },
+  {
+    "id": 7,
+    "name": "FTX",
+    "type": "crypto",
+    "date": "2022-11-11",
+    "losses": "$8 billion",
+    "status": "Dead",
+    "description": "Major crypto exchange collapsed after revelations of customer fund misuse. Founder SBF convicted of fraud.",
+    "source": "https://en.wikipedia.org/wiki/FTX_(company)"
+  },
+  {
+    "id": 8,
+    "name": "Celsius Network",
+    "type": "crypto",
+    "date": "2022-06-12",
+    "losses": "$4.7 billion",
+    "status": "Dead",
+    "description": "Crypto lending platform froze withdrawals and filed bankruptcy. CEO charged with fraud.",
+    "source": "https://en.wikipedia.org/wiki/Celsius_Network"
+  },
+  {
+    "id": 9,
+    "name": "Bored Bunny NFT",
+    "type": "nft",
+    "date": "2022-01-20",
+    "losses": "$20 million",
+    "status": "Dead",
+    "description": "Celebrity-promoted NFT project that promised utility and metaverse integration. Delivered nothing after sellout.",
+    "source": "https://www.coindesk.com/layer2/2022/02/04/why-are-celebrities-pushing-nfts/"
+  },
+  {
+    "id": 10,
+    "name": "Save The Kids Token",
+    "type": "crypto",
+    "date": "2021-06-01",
+    "losses": "$Unknown",
+    "status": "Dead",
+    "description": "Promoted by FaZe Clan members as a charity token. Insiders dumped immediately after launch.",
+    "source": "https://www.dexerto.com/entertainment/faze-clan-crypto-scandal-explained-1603405/"
+  },
+  {
+    "id": 11,
+    "name": "Mutant Ape Planet",
+    "type": "nft",
+    "date": "2022-01-01",
+    "losses": "$2.9 million",
+    "status": "Dead",
+    "description": "NFT collection mimicking BAYC. Creator arrested for wire fraud after rug-pulling buyers.",
+    "source": "https://www.justice.gov/usao-edny/pr/nft-developer-charged-29-million-fraud-scheme"
+  },
+  {
+    "id": 12,
+    "name": "Voyager Digital",
+    "type": "crypto",
+    "date": "2022-07-05",
+    "losses": "$1.3 billion",
+    "status": "Dead",
+    "description": "Crypto broker filed for bankruptcy after Three Arrows Capital default. Customer funds frozen.",
+    "source": "https://en.wikipedia.org/wiki/Voyager_Digital"
+  },
+  {
+    "id": 13,
+    "name": "Axie Infinity Ronin Hack",
+    "type": "crypto",
+    "date": "2022-03-23",
+    "losses": "$620 million",
+    "status": "Under Investigation",
+    "description": "North Korean hackers (Lazarus Group) exploited the Ronin bridge, stealing ETH and USDC.",
+    "source": "https://en.wikipedia.org/wiki/Ronin_(blockchain)"
+  },
+  {
+    "id": 14,
+    "name": "Pixelmon NFT",
+    "type": "nft",
+    "date": "2022-02-07",
+    "losses": "$70 million",
+    "status": "Dead",
+    "description": "Raised $70M promising AAA-quality game NFTs. Revealed artwork was laughably bad. Community outraged.",
+    "source": "https://www.dexerto.com/gaming/pixelmon-nft-reveal-roasted-for-terrible-art-despite-70m-raise-1767988/"
+  },
+  {
+    "id": 15,
+    "name": "Wonderland (TIME)",
+    "type": "crypto",
+    "date": "2022-01-27",
+    "losses": "$1 billion+",
+    "status": "Dead",
+    "description": "DeFi protocol's treasury manager revealed to be QuadrigaCX co-founder, a convicted fraudster.",
+    "source": "https://www.coindesk.com/tech/2022/01/27/wonderland-defi-faces-mass-withdrawal-calls-after-co-founder-identity-revealed/"
+  },
+  {
+    "id": 16,
+    "name": "Thodex",
+    "type": "crypto",
+    "date": "2021-04-20",
+    "losses": "$2 billion",
+    "status": "Under Investigation",
+    "description": "Turkish crypto exchange CEO fled with customer funds. Eventually caught and sentenced to 11,196 years.",
+    "source": "https://en.wikipedia.org/wiki/Thodex"
+  },
+  {
+    "id": 17,
+    "name": "PlusToken",
+    "type": "ponzi",
+    "date": "2019-06-01",
+    "losses": "$2 billion",
+    "status": "Dead",
+    "description": "Chinese Ponzi scheme disguised as a crypto wallet. Promised high returns for staking.",
+    "source": "https://en.wikipedia.org/wiki/PlusToken"
+  },
+  {
+    "id": 18,
+    "name": "IcomTech",
+    "type": "ponzi",
+    "date": "2019-01-01",
+    "losses": "$8.4 million",
+    "status": "Dead",
+    "description": "Targeted Latino communities with crypto mining scam. CEO sentenced to 5 years in prison.",
+    "source": "https://www.justice.gov/usao-sdny/pr/ceo-cryptocurrency-company-icomtech-sentenced-five-years-prison"
+  },
+  {
+    "id": 19,
+    "name": "CryptoZoo",
+    "type": "crypto",
+    "date": "2023-01-01",
+    "losses": "$2 million+",
+    "status": "Under Investigation",
+    "description": "Logan Paul's NFT game project exposed by Coffeezilla. Promised game never delivered despite millions raised.",
+    "source": "https://www.youtube.com/watch?v=386p68_lDHA"
+  },
+  {
+    "id": 20,
+    "name": "MetaMask Phishing Attacks",
+    "type": "phishing",
+    "date": "2024-01-01",
+    "losses": "$Ongoing",
+    "status": "Active",
+    "description": "Fake MetaMask sites and email campaigns tricking users into entering seed phrases. Ongoing threat.",
+    "source": "https://metamask.io/phishing-list/"
+  }
+]

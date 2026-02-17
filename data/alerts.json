@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "text": "ALERT: New phishing campaign targeting MetaMask users via fake airdrop emails",
+    "date": "2026-02-16",
+    "severity": "high"
+  },
+  {
+    "id": 2,
+    "text": "RUG PULL: SolanaMemeDog token dev wallet drained $2.1M — LP removed",
+    "date": "2026-02-15",
+    "severity": "critical"
+  },
+  {
+    "id": 3,
+    "text": "WARNING: Fake Ledger Live apps appearing in app stores — only download from ledger.com",
+    "date": "2026-02-14",
+    "severity": "high"
+  },
+  {
+    "id": 4,
+    "text": "EXPOSED: YouTube ad campaign promoting fake Elon Musk crypto giveaway — DO NOT SEND FUNDS",
+    "date": "2026-02-13",
+    "severity": "critical"
+  },
+  {
+    "id": 5,
+    "text": "SCAM ALERT: Discord DMs impersonating project mods asking for seed phrases — NEVER share your seed",
+    "date": "2026-02-12",
+    "severity": "high"
+  },
+  {
+    "id": 6,
+    "text": "BREAKING: FBI arrests operators of $50M crypto investment fraud targeting seniors",
+    "date": "2026-02-11",
+    "severity": "medium"
+  }
+]

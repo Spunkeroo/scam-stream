@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "title": "Investigating Logan Paul's Biggest Scam",
+    "videoId": "386p68_lDHA",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "Deep dive into CryptoZoo — Logan Paul's failed NFT game that took millions from fans.",
+    "featured": true,
+    "featuredDate": "2026-02-16",
+    "date": "2023-01-01"
+  },
+  {
+    "id": 2,
+    "title": "The $40 Billion Luna Crash",
+    "videoId": "LVDkzMDnF0Q",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "How Terra/LUNA collapsed and wiped out billions in a matter of days.",
+    "featured": true,
+    "featuredDate": "2026-02-15",
+    "date": "2022-06-01"
+  },
+  {
+    "id": 3,
+    "title": "I Called A Scammer To Waste Their Time",
+    "videoId": "le71yVPh4uk",
+    "creator": "Kitboga",
+    "category": "phone",
+    "description": "Kitboga wastes tech support scammers' time with hilarious character acting.",
+    "featured": true,
+    "featuredDate": "2026-02-14",
+    "date": "2022-01-15"
+  },
+  {
+    "id": 4,
+    "title": "How FTX Scammed Everyone",
+    "videoId": "20BEJouWBgY",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "The full story of how Sam Bankman-Fried defrauded millions through FTX.",
+    "featured": true,
+    "featuredDate": "2026-02-13",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 5,
+    "title": "The BitConnect Scam Explained",
+    "videoId": "lCcwn6bGUtU",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "Breaking down one of crypto's biggest Ponzi schemes — BitConnect.",
+    "featured": true,
+    "featuredDate": "2026-02-12",
+    "date": "2021-09-01"
+  },
+  {
+    "id": 6,
+    "title": "NFT Rug Pulls - How They Work",
+    "videoId": "YQ_xWvX1n9g",
+    "creator": "Coffeezilla",
+    "category": "nft",
+    "description": "Exposing the mechanics behind NFT rug pulls and how scammers get away with millions.",
+    "featured": false,
+    "date": "2022-03-01"
+  },
+  {
+    "id": 7,
+    "title": "Scamming The Scammer",
+    "videoId": "VrKW58MS12g",
+    "creator": "Jim Browning",
+    "category": "phone",
+    "description": "Jim Browning hacks into a scam call center's CCTV and exposes their operation.",
+    "featured": false,
+    "date": "2020-03-01"
+  },
+  {
+    "id": 8,
+    "title": "The Fake Crypto Guru Pipeline",
+    "videoId": "HiIcwt_77Hk",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "How fake crypto gurus use rented Lambos and paid testimonials to sell worthless courses.",
+    "featured": false,
+    "date": "2022-07-01"
+  },
+  {
+    "id": 9,
+    "title": "Romance Scams: The $1 Billion Industry",
+    "videoId": "bGjlvjCFXiw",
+    "creator": "VICE",
+    "category": "romance",
+    "description": "Inside the world of romance scams that steal billions from lonely victims worldwide.",
+    "featured": false,
+    "date": "2021-02-01"
+  },
+  {
+    "id": 10,
+    "title": "I Investigated Fake Amazon Reviews",
+    "videoId": "JA2kHK-yBUk",
+    "creator": "SomeOrdinaryGamers",
+    "category": "online",
+    "description": "Exposing the underground industry of fake reviews that manipulate what you buy.",
+    "featured": false,
+    "date": "2022-05-01"
+  },
+  {
+    "id": 11,
+    "title": "The Biggest Ponzi Scheme in History",
+    "videoId": "jD2E2lGhnNo",
+    "creator": "ColdFusion",
+    "category": "crypto",
+    "description": "The rise and fall of OneCoin — the biggest cryptocurrency Ponzi scheme ever.",
+    "featured": false,
+    "date": "2022-08-01"
+  },
+  {
+    "id": 12,
+    "title": "Pig Butchering: The New Crypto Scam",
+    "videoId": "oMJqD0sT0eY",
+    "creator": "VICE",
+    "category": "romance",
+    "description": "How organized crime syndicates run 'pig butchering' romance-meets-crypto scams.",
+    "featured": false,
+    "date": "2023-04-01"
+  },
+  {
+    "id": 13,
+    "title": "Exposing Crypto's Biggest Scammer - SafeMoon",
+    "videoId": "CzbBi0agLNg",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "Investigation into SafeMoon token revealing insiders siphoning millions from the liquidity pool.",
+    "featured": false,
+    "date": "2022-04-15"
+  },
+  {
+    "id": 14,
+    "title": "I Investigated Jake Paul's Biggest Scam",
+    "videoId": "dA_IB9AWwHk",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "Exposing Jake Paul's involvement in promoting scam crypto tokens to his massive audience.",
+    "featured": false,
+    "date": "2022-09-01"
+  },
+  {
+    "id": 15,
+    "title": "Exposing The World's Biggest NFT Scam",
+    "videoId": "C6jnWMbnGSY",
+    "creator": "Coffeezilla",
+    "category": "nft",
+    "description": "Investigation into one of the largest NFT rug pulls, tracing stolen funds and revealing the people behind it.",
+    "featured": false,
+    "date": "2022-02-01"
+  },
+  {
+    "id": 16,
+    "title": "Scammer Thinks He Won $500,000",
+    "videoId": "sRMMwpDTs5k",
+    "creator": "Kitboga",
+    "category": "phone",
+    "description": "Kitboga convinces a refund scammer he accidentally sent half a million dollars, causing complete panic.",
+    "featured": false,
+    "date": "2021-06-01"
+  },
+  {
+    "id": 17,
+    "title": "Angry Scammer Loses It After Being Baited For Hours",
+    "videoId": "9G5qB4Jkp5I",
+    "creator": "Kitboga",
+    "category": "phone",
+    "description": "A furious scammer rages after Kitboga strings him along for hours with his grandmother character.",
+    "featured": false,
+    "date": "2021-03-01"
+  },
+  {
+    "id": 18,
+    "title": "Spying on the Scammers",
+    "videoId": "0dT6jB2Dbmk",
+    "creator": "Jim Browning",
+    "category": "phone",
+    "description": "Jim Browning gains remote access to a scam call center and watches them in real time, documenting everything.",
+    "featured": false,
+    "date": "2020-06-01"
+  },
+  {
+    "id": 19,
+    "title": "Confronting The Scammer Who Tried To Steal $40,000",
+    "videoId": "YMFAFXx-g14",
+    "creator": "Jim Browning",
+    "category": "phone",
+    "description": "Jim tracks down and confronts a scammer who attempted to steal tens of thousands from elderly victims.",
+    "featured": false,
+    "date": "2021-08-01"
+  },
+  {
+    "id": 20,
+    "title": "I Replied To A Nigerian Prince Scam",
+    "videoId": "X8FxjDq2-HM",
+    "creator": "Pleasant Green",
+    "category": "online",
+    "description": "Pleasant Green engages a Nigerian 419 scammer for weeks, turning the tables with absurd requests.",
+    "featured": false,
+    "date": "2020-09-01"
+  },
+  {
+    "id": 21,
+    "title": "Romance Scammer Begs Me To Stop",
+    "videoId": "nBT6RElhMZc",
+    "creator": "Pleasant Green",
+    "category": "romance",
+    "description": "A romance scammer gets frustrated as Pleasant Green strings them along with bizarre conversation.",
+    "featured": false,
+    "date": "2021-05-01"
+  },
+  {
+    "id": 22,
+    "title": "Hacking A Scammer's Computer",
+    "videoId": "VKzViQSXJQg",
+    "creator": "ScammerPayback",
+    "category": "phone",
+    "description": "Pierogi reverse-hacks into a scammer's computer, deleting their files and accessing their victim lists.",
+    "featured": false,
+    "date": "2021-04-01"
+  },
+  {
+    "id": 23,
+    "title": "I Destroyed A Scam Call Center",
+    "videoId": "0HGo8cVXBDw",
+    "creator": "ScammerPayback",
+    "category": "phone",
+    "description": "Pierogi gains full access to a scam call center's network, deleting data and disrupting their operations.",
+    "featured": false,
+    "date": "2022-01-01"
+  },
+  {
+    "id": 24,
+    "title": "Exposing a Phone Scam Empire",
+    "videoId": "xsLJZyih3Ac",
+    "creator": "Mark Rober",
+    "category": "phone",
+    "description": "Mark Rober teams up with scam baiters to infiltrate and expose a massive phone scam call center.",
+    "featured": false,
+    "date": "2022-03-15"
+  },
+  {
+    "id": 25,
+    "title": "Glitter Bomb 4.0 vs Porch Pirates",
+    "videoId": "h4T_LlK1VE4",
+    "creator": "Mark Rober",
+    "category": "online",
+    "description": "Latest glitter bomb trap catches package thieves with elaborate engineering and hidden cameras.",
+    "featured": false,
+    "date": "2022-12-15"
+  },
+  {
+    "id": 26,
+    "title": "The Dark Side Of NFTs",
+    "videoId": "XwMjPWOoQ0U",
+    "creator": "SomeOrdinaryGamers",
+    "category": "nft",
+    "description": "Mutahar exposes the rampant scams, wash trading, and fraud in the NFT space.",
+    "featured": false,
+    "date": "2022-02-15"
+  },
+  {
+    "id": 27,
+    "title": "Exposing The Fake Guru Industry",
+    "videoId": "L7o6HymJmyc",
+    "creator": "Coffeezilla",
+    "category": "online",
+    "description": "Investigation into fake guru course sellers who promise wealth through dropshipping, forex, and crypto.",
+    "featured": false,
+    "date": "2021-07-01"
+  },
+  {
+    "id": 28,
+    "title": "I Infiltrated An Online Scam",
+    "videoId": "4o5hSIbEfSs",
+    "creator": "Trilogy Media",
+    "category": "phone",
+    "description": "Trilogy Media goes undercover into a scam operation, leading to real-world confrontation with scammers.",
+    "featured": false,
+    "date": "2022-06-15"
+  },
+  {
+    "id": 29,
+    "title": "The Billion Dollar OneCoin Scam",
+    "videoId": "64xcgvEJ3Ys",
+    "creator": "BBC",
+    "category": "crypto",
+    "description": "BBC documentary on the OneCoin Ponzi scheme run by Ruja Ignatova, one of the largest crypto frauds ever.",
+    "featured": false,
+    "date": "2022-11-01"
+  },
+  {
+    "id": 30,
+    "title": "Who's Behind The World's Biggest Scam Call Centres?",
+    "videoId": "3ANViPEfpCs",
+    "creator": "Jim Browning",
+    "category": "phone",
+    "description": "Multi-part investigation tracing the ownership and operations behind massive scam call center networks.",
+    "featured": false,
+    "date": "2021-11-01"
+  },
+  {
+    "id": 31,
+    "title": "The Man Who Scammed The Internet",
+    "videoId": "jSVxLEFpjS0",
+    "creator": "Coffeezilla",
+    "category": "crypto",
+    "description": "Exposing a serial internet scammer running multiple fraudulent crypto and NFT projects.",
+    "featured": false,
+    "date": "2022-10-01"
+  },
+  {
+    "id": 32,
+    "title": "I Investigated A Pig Butchering Scam",
+    "videoId": "xoFaHBwbBd4",
+    "creator": "Pleasant Green",
+    "category": "romance",
+    "description": "Deep dive into pig butchering crypto romance scams, following the money trail and exposing the operation.",
+    "featured": false,
+    "date": "2023-02-01"
+  }
+]
