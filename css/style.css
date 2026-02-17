@@ -46,6 +46,43 @@ a:hover {
   color: var(--orange);
 }
 
+/* ---- NETWORK BAR ---- */
+.network-bar {
+  background: #111;
+  border-bottom: 1px solid var(--border);
+  padding: 6px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+}
+
+.network-bar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 12px;
+}
+
+.network-label {
+  font-weight: 800;
+  color: var(--red);
+  margin-right: 8px;
+}
+
+.network-bar a {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.network-bar a:hover { color: var(--text); }
+.network-bar a.active {
+  color: var(--red);
+  font-weight: 700;
+}
+
 /* ---- TICKER BAR ---- */
 .ticker-bar {
   background: var(--red-dark);
@@ -53,7 +90,7 @@ a:hover {
   padding: 8px 0;
   overflow: hidden;
   position: fixed;
-  top: 0;
+  top: 29px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -89,7 +126,7 @@ a:hover {
 /* ---- NAV ---- */
 .main-nav {
   position: fixed;
-  top: 36px;
+  top: 65px;
   left: 0;
   right: 0;
   background: rgba(10, 10, 10, 0.95);
@@ -167,7 +204,7 @@ a:hover {
 /* ---- SECTION BASE ---- */
 .section {
   display: none;
-  padding: 120px 20px 60px;
+  padding: 150px 20px 60px;
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
@@ -202,7 +239,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 170px;
 }
 
 #hero.active {
@@ -1148,7 +1185,7 @@ a:hover {
   }
 
   .section {
-    padding: 100px 16px 40px;
+    padding: 130px 16px 40px;
   }
 
   .section-title {
