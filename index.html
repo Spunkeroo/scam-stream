@@ -14,7 +14,12 @@
   <meta property="og:description" content="Community-driven scam exposure platform. Track rug pulls, crypto fraud, phishing attacks and more.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://scam.stream">
+  <meta property="og:image" content="https://scam.stream/og-image.svg">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@SpunkArt13">
+  <meta name="twitter:title" content="scam.stream">
+  <meta name="twitter:description" content="Real-time scam exposure platform. Track rug pulls, phishing attacks, and crypto fraud.">
+  <meta name="twitter:image" content="https://scam.stream/og-image.svg">
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚠️</text></svg>">
   <link rel="stylesheet" href="css/style.css">
@@ -437,6 +442,11 @@
         </ul>
       </div>
     </div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem;margin:1rem 0;">
+      <a href="https://www.amazon.com/s?k=vpn+router&tag=spunk01-20" target="_blank" rel="noopener sponsored" style="font-size:0.7rem;padding:0.3rem 0.8rem;background:#0a0a12;border:1px solid #1a1a2e;border-radius:6px;color:#ff9900;text-decoration:none;">VPN Routers</a>
+      <a href="https://www.amazon.com/s?k=hardware+wallet+crypto&tag=spunk01-20" target="_blank" rel="noopener sponsored" style="font-size:0.7rem;padding:0.3rem 0.8rem;background:#0a0a12;border:1px solid #1a1a2e;border-radius:6px;color:#ff9900;text-decoration:none;">Hardware Wallets</a>
+      <a href="https://www.amazon.com/s?k=cybersecurity+books&tag=spunk01-20" target="_blank" rel="noopener sponsored" style="font-size:0.7rem;padding:0.3rem 0.8rem;background:#0a0a12;border:1px solid #1a1a2e;border-radius:6px;color:#ff9900;text-decoration:none;">Security Books</a>
+    </div>
     <div class="footer-bottom">
       &copy; 2026 scam.stream — Exposing scams, protecting people. Not financial advice. All reports are community-sourced.
     </div>
@@ -465,5 +475,13 @@
   <script src="js/submit.js"></script>
   <script src="js/app.js"></script>
 
+<div id="global-visit-counter" style="position:fixed;bottom:8px;left:8px;background:rgba(0,0,0,0.7);color:#888;padding:4px 10px;border-radius:12px;font-size:12px;font-family:sans-serif;z-index:99;backdrop-filter:blur(4px);">
+<span id="gvc-count">...</span> visitors
+</div>
+<script>
+(function(){var d=location.hostname.replace(/\./g,'_')||'local';var k='visited_'+d;var fb='https://predict-network-ec767-default-rtdb.firebaseio.com/visitors/'+d;
+if(!localStorage.getItem(k)){localStorage.setItem(k,'1');fetch(fb+'/count.json').then(function(r){return r.json()}).then(function(n){var c=(n||0)+1;fetch(fb+'/count.json',{method:'PUT',body:JSON.stringify(c)});document.getElementById('gvc-count').textContent=c.toLocaleString()}).catch(function(){document.getElementById('gvc-count').textContent='1'})}
+else{fetch(fb+'/count.json').then(function(r){return r.json()}).then(function(n){document.getElementById('gvc-count').textContent=(n||0).toLocaleString()}).catch(function(){})}})();
+</script>
 </body>
 </html>
